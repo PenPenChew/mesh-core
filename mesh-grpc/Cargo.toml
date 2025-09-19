@@ -1,0 +1,32 @@
+[package]
+name = "mesh-grpc"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+license.workspace = true
+repository.workspace = true
+homepage.workspace = true
+description = "Tonic gRPC services for local Go clients and admin interface for mesh"
+
+[dependencies]
+tonic.workspace = true
+prost.workspace = true
+tokio.workspace = true
+serde.workspace = true
+serde_json.workspace = true
+thiserror.workspace = true
+tracing.workspace = true
+anyhow.workspace = true
+tokio-stream = "0.1"
+futures-core = "0.3"
+dashmap.workspace = true
+tonic-reflection = "0.12"
+mesh-routing = { path = "../mesh-routing" }
+mesh-session = { path = "../mesh-session" }
+mesh-topology = { path = "../mesh-topology" }
+
+[build-dependencies]
+tonic-build = "0.12"
+
+[dev-dependencies]
+tokio = { workspace = true, features = ["test-util"] }
