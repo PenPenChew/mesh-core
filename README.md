@@ -220,6 +220,8 @@ The mesh uses an efficient wire protocol with:
 - **Session Authentication** - Handshake protocols for secure session establishment
 - **Message Integrity** - Reliable delivery with WAL persistence and deduplication
 
+See our [Security Policy](SECURITY.md). For security issues, please email security@redb.co instead of opening a public issue.
+
 ## Scalability
 
 The mesh architecture supports scalable network topologies:
@@ -240,11 +242,15 @@ Built-in monitoring and debugging capabilities:
 
 ## Contributing
 
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
+Please read our [Contributing Guide](CONTRIBUTING.md) before opening a Pull Request. By contributing, you agree to our [Code of Conduct](CODE_OF_CONDUCT.md) and certify your commits with a DCO sign-off (see [DCO](DCO.md)).
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for notable changes.
+
+## Support
+
+See [SUPPORT.md](SUPPORT.md) for ways to get help.
 
 ## Current Implementation Status
 
@@ -261,7 +267,3 @@ The mesh network currently provides:
 ## License
 
 AGPL-3.0 for open-source use (`LICENSE`). Commercial license available (`LICENSE-COMMERCIAL.md`).
-
-## Security
-
-For security issues, please email security@redb.co instead of opening a public issue.

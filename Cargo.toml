@@ -14,9 +14,9 @@ members = [
 version = "0.1.0"
 edition = "2021"
 authors = ["redbco"]
-license = "MIT OR Apache-2.0"
-repository = "https://github.com/redbco/mesh"
-homepage = "https://github.com/redbco/mesh"
+license = "AGPL-3.0-only"
+repository = "https://github.com/redbco/mesh-core"
+homepage = "https://github.com/redbco/mesh-core"
 
 [workspace.dependencies]
 # Common dependencies that will be shared across crates
