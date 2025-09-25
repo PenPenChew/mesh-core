@@ -267,3 +267,7 @@ The mesh network currently provides:
 ## License
 
 AGPL-3.0 for open-source use (`LICENSE`). Commercial license available (`LICENSE-COMMERCIAL.md`).
+
+## Community
+
+- Discord: [Join us](https://discord.gg/hu9pdaqrXk)
